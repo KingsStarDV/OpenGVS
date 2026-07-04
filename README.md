@@ -91,6 +91,46 @@ this is the final connection..
 You can alter this last step according to your need.
 the multiple mounting holes in the schematic are for only the purpose of converting 3.7v into 3.3v, nd 12v for the esp32 and H bridge to work.
 
+# BOM
+
+# Bill of Materials (BOM)
+
+## 🔌 Boards & Prototyping
+| Component | Short Name | Qty | Unit Price (INR) | Subtotal (INR) | Source | Link |
+|---|---|---|---|---|---|---|
+| VeroBoard (6x4 Inch) | Perfboard 6x4" | 1 | 40.00 | 40.00 | Robocraze | https://robocraze.com/products/veroboard6x4?_pos=2&_sid=71be420dd&_ss=r |
+| ESP32-C3 Mini Development Board - Unsoldered | ESP32-C3 Dev Board | 1 | 234.00 | 234.00 | Robocraze | https://robocraze.com/products/esp32-c3-mini-development-board-unsoldered?variant=48465411506400 |
+
+## 🔋 Power & Charging
+| Component | Short Name | Qty | Unit Price (INR) | Subtotal (INR) | Source | Link |
+|---|---|---|---|---|---|---|
+| TP4056 1A Li-ion Charging Module (Type-C, w/ protection) | TP4056 Li-ion Charger | 1 | 16.00 | 16.00 | Makerbazar | https://makerbazar.in/products/tp4056-1a-li-ion-lithium-battery-charging-module?variant=45459125567728 |
+| 18650 SMD/SMT Battery Holder Case (Single) | 18650 Battery Holder | 1 | 39.00 | 39.00 | Makerbazar | https://makerbazar.in/products/18650-battery-holder-single-battery.js?variant=44006735 |
+| Samsung SDI INR18650 Li-Ion Rechargeable Cell, 3000mAh | 18650 Li-ion Cell (3000mAh) | 1 | 249.00 | 249.00 | Makerbazar | https://makerbazar.in/products/samsung-sdi-inr18650-li-ion-rechargeable-cells?variant=48251034140912 |
+
+## ⚡ DC-DC Converters
+| Component | Short Name | Qty | Unit Price (INR) | Subtotal (INR) | Source | Link |
+|---|---|---|---|---|---|---|
+| DC-DC 1.8V-5V to 3.3V Booster/Buck Module | 3.3V DC-DC Converter | 1 | 52.00 | 52.00 | Robu.in | https://robu.in/product/dc-dc-1-8v-5v-to-3-3v-boost-and-buck-power-module/ |
+| 3.7V to 12V Mini DC-DC Boost Step-Up Converter (5V/8V/9V/12V out) | 3.7V-12V DC-DC Boost Converter | 1 | 18.00 | 18.00 | Robu.in | https://robu.in/product/3-7v-to-12v-mini-dc-dc-boost-step-up-converter-board-module-5v-8v-9v-12v-output/ |
+
+## 🔺 Transistors & MOSFETs
+| Component | Short Name | Qty | Unit Price (INR) | Subtotal (INR) | Source | Link |
+|---|---|---|---|---|---|---|
+| IRLZ44N MOSFET, DIP-3 | IRLZ44N MOSFET (N-Ch) | 2 | 39.00 | 78.00 | Robu.in | https://robu.in/product/irlz44n/ |
+| SPP18P06PHXKSA1 Infineon Power MOSFET, P-Ch, 60V, 18.7A, TO-220 | SPP18P06 MOSFET (P-Ch) | 2 | 180.00 | 360.00 | Robu.in | https://robu.in/product/spp18p06phxksa1-infineon-power-mosfet-p-channel/ |
+| 2N3904 NPN Transistor, TO-92, onsemi | 2N3904 NPN Transistor | 2 | 18.00 | 36.00 | Robu.in | https://robu.in/product/2n3904ta-onsemi-40v-625mw-400-1ma1-0v-200ma-npn-to-92-3l-bipolar-bjt-rohs/ |
+| 2N3906 PNP Transistor, TO-92, JCET | 2N3906 PNP Transistor | 2 | 5.00 | 10.00 | Robu.in | https://robu.in/product/2n3906-ta-jcet-40v-625mw-10010ma1v-200ma-pnp-to-92-bipolar-bjt-rohs/ |
+
+## 🧩 Passive Components (Local)
+| Component | Short Name | Qty | Unit Price (INR) | Subtotal (INR) | Source | Link |
+|---|---|---|---|---|---|---|
+| Electrode | Electrode | 2 | 15.00 | 30.00 | Local Market | N/A - local purchase |
+| Resistor 220 Ohm | 220R Resistor | 1 | 10.00 | 10.00 | Local Market | N/A - local purchase |
+| Resistor 10K Ohm | 10K Resistor | 5 | 10.00 | 50.00 | Local Market | N/A - local purchase |
+
+---
+**Grand Total:** ₹1,222.00
 So thats all...............
 
 
