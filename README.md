@@ -92,6 +92,23 @@ You can alter this last step according to your need.
 the multiple mounting holes in the schematic are for only the purpose of converting 3.7v into 3.3v, nd 12v for the esp32 and H bridge to work.
 
 
+# Flashing Firmware :
+Flshing firmware is easiest part of this build..
+Just donwload the firmware given in this repo in any compiler that you use [reccomended: Arduino IDE]
+[These next steps are different for every IDE, i m using ARDUINO IDE]
+
+then click FILES then PREFRENCES.
+In "Additional Boards Manager URLs" add:
+
+```
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+```
+Then Click TOOLS, then BOARDS, then BOARD MANAGER.
+Search "esp32" and install the package by Espressif Systems
+
+NEXT, connect the esp32 c3 and in TOOLS > BAORD search and select Esp32 C3 Mini...
+
+FInally Upload the code.
 # BOM
 
 # Bill of Materials (BOM)
