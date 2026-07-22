@@ -3,23 +3,23 @@
 # SAFETY WARNING [Read This First]
 ## ⚠️ Safety
 
-OpenGVS applies a small electrical current across the mastoid processes (behind the ears) to stimulate the vestibular system. Please read this before building or using it.
+OpenGVS applies a small amount of current across the mastoid (behind the ears) to stimulate the vestibular system. You are requied to read this before continuing:
 
-**Do not use this device if you:**
+**Dont Use OPENGVS or Similar Device if You::**
 - Have a pacemaker, cochlear implant, or any other implanted electronic medical device
 - Have epilepsy or a history of seizures
 - Have any diagnosed neurological or inner-ear condition (e.g. vestibular disorders, Ménière's disease)
-- Have skin damage, cuts, or irritation at the electrode contact points
+
 
 **Before first use:**
-- Verify the actual output current with a multimeter — don't rely on the calculated value alone. Confirm it stays within the intended limit under real load before it ever touches skin.
-- Double-check polarity and connections. A miswired H-bridge or a failed current-limiting stage could send more current than intended.
-- Test on a dummy load (e.g. a resistor matching skin resistance) before testing on a person.
+- Verify the output current with a multimeter — don't rely on the calculated value alone. Check if it stays within the limit before using it on skin.
+- Double Check for the connections.. Any faulty connection in any of the circuit can result in flow of more current than safe.
+- Test on a dummy load (for eg. a Resistor of 10k OHM)
 
-- Start at the lowest possible setting and increase gradually. Stop immediately if you feel pain, a burning sensation, nausea, headache, or anything beyond mild tingling/pulling.
 
 **General:**
-This is an experimental DIY project, not a medical device. It hasn't been tested or certified for safety by any regulatory body. Build and use it entirely at your own risk. If you have any doubts about your health or the device's safety, consult a doctor before use, and don't use it on other people without their informed consent.
+This is a open source Project and is not cerfitied as a medical device.. Use it with caution and at you own risk.
+If you are unclear whether to use this or not, consult a doctor first..
 
 ALSO dont use it near stairs, machineries, water or anyplace where falling can cause major injuries..
 
@@ -90,6 +90,7 @@ this is the final connection..
 
 You can alter this last step according to your need.
 the multiple mounting holes in the schematic are for only the purpose of converting 3.7v into 3.3v, nd 12v for the esp32 and H bridge to work.
+
 
 # BOM
 
